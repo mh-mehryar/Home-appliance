@@ -1,0 +1,5 @@
+D:\.NET Projects\Home_Appliance\Code\Home_Appliance_Project\ShopManagement.Infrastructure.EfCore\obj\Debug\net5.0\ShopManagement.Infrastructure.EfCore.csproj.AssemblyReference.cache
+D:\.NET Projects\Home_Appliance\Code\Home_Appliance_Project\ShopManagement.Infrastructure.EfCore\obj\Debug\net5.0\ShopManagement.Infrastructure.EfCore.GeneratedMSBuildEditorConfig.editorconfig
+D:\.NET Projects\Home_Appliance\Code\Home_Appliance_Project\ShopManagement.Infrastructure.EfCore\obj\Debug\net5.0\ShopManagement.Infrastructure.EfCore.AssemblyInfoInputs.cache
+D:\.NET Projects\Home_Appliance\Code\Home_Appliance_Project\ShopManagement.Infrastructure.EfCore\obj\Debug\net5.0\ShopManagement.Infrastructure.EfCore.AssemblyInfo.cs
+D:\.NET Projects\Home_Appliance\Code\Home_Appliance_Project\ShopManagement.Infrastructure.EfCore\obj\Debug\net5.0\ShopManagement.Infrastructure.EfCore.csproj.CoreCompileInputs.cache

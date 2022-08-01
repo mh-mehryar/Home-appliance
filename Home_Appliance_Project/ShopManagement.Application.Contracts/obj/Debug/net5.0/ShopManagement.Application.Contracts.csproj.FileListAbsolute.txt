@@ -1,0 +1,15 @@
+D:\.NET Projects\Home_Appliance\Code\Home_Appliance_Project\ShopManagement.Application.Contracts\bin\Debug\net5.0\ShopManagement.Application.Contracts.deps.json
+D:\.NET Projects\Home_Appliance\Code\Home_Appliance_Project\ShopManagement.Application.Contracts\bin\Debug\net5.0\ShopManagement.Application.Contracts.dll
+D:\.NET Projects\Home_Appliance\Code\Home_Appliance_Project\ShopManagement.Application.Contracts\bin\Debug\net5.0\ShopManagement.Application.Contracts.pdb
+D:\.NET Projects\Home_Appliance\Code\Home_Appliance_Project\ShopManagement.Application.Contracts\bin\Debug\net5.0\0_Framework.dll
+D:\.NET Projects\Home_Appliance\Code\Home_Appliance_Project\ShopManagement.Application.Contracts\bin\Debug\net5.0\0_Framework.pdb
+D:\.NET Projects\Home_Appliance\Code\Home_Appliance_Project\ShopManagement.Application.Contracts\obj\Debug\net5.0\ShopManagement.Application.Contracts.csproj.AssemblyReference.cache
+D:\.NET Projects\Home_Appliance\Code\Home_Appliance_Project\ShopManagement.Application.Contracts\obj\Debug\net5.0\ShopManagement.Application.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+D:\.NET Projects\Home_Appliance\Code\Home_Appliance_Project\ShopManagement.Application.Contracts\obj\Debug\net5.0\ShopManagement.Application.Contracts.AssemblyInfoInputs.cache
+D:\.NET Projects\Home_Appliance\Code\Home_Appliance_Project\ShopManagement.Application.Contracts\obj\Debug\net5.0\ShopManagement.Application.Contracts.AssemblyInfo.cs
+D:\.NET Projects\Home_Appliance\Code\Home_Appliance_Project\ShopManagement.Application.Contracts\obj\Debug\net5.0\ShopManagement.Application.Contracts.csproj.CoreCompileInputs.cache
+D:\.NET Projects\Home_Appliance\Code\Home_Appliance_Project\ShopManagement.Application.Contracts\obj\Debug\net5.0\ShopManagement.Application.Contracts.csproj.CopyComplete
+D:\.NET Projects\Home_Appliance\Code\Home_Appliance_Project\ShopManagement.Application.Contracts\obj\Debug\net5.0\ShopManagement.Application.Contracts.dll
+D:\.NET Projects\Home_Appliance\Code\Home_Appliance_Project\ShopManagement.Application.Contracts\obj\Debug\net5.0\refint\ShopManagement.Application.Contracts.dll
+D:\.NET Projects\Home_Appliance\Code\Home_Appliance_Project\ShopManagement.Application.Contracts\obj\Debug\net5.0\ShopManagement.Application.Contracts.pdb
+D:\.NET Projects\Home_Appliance\Code\Home_Appliance_Project\ShopManagement.Application.Contracts\obj\Debug\net5.0\ref\ShopManagement.Application.Contracts.dll
