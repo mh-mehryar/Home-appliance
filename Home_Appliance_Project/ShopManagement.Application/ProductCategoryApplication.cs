@@ -20,22 +20,18 @@ namespace ShopManagement.Application
         }
         public OperationResult Create(CreateProductCategory command)
         {
-            //var procat = new ProductCategory(command.Name, command.Description, command.Picture, 
-            //    command.PictureAlt, command.PictureTitle, command.Keywords, command.MetaDescription,
-            //    command.Slug);
-            //_productCategoryRepository.Add(procat);
-            
             var operation = new OperationResult();
-            if (_productCategoryRepository.Exists(x => x.Name == command.Name)) 
-                return operation.Failed("امکان ثبت رکورد تکراری وجود ندارد،لطفاً مجدداً تلاش فرمائید.");
+            if (_productCategoryRepository.Exists(x => x.Name == command.Name))
+            return operation.Failed("امکان ثبت رکورد تکراری وجود ندارد،لطفا مجددا تلاش بفرمائید");
 
             var slug = command.Slug.Slugify();
             var productcategory = new ProductCategory(command.Name, command.Description, command.Picture,
-                command.PictureAlt, command.PictureTitle, command.Keywords, command.MetaDescription,
-               slug);
+                command.PictureAlt, command.PictureTitle, command.Keywords, command.MetaDescription, slug);
+
             _productCategoryRepository.Create(productcategory);
-            _productCategoryRepository.SaveChaneges();
+            _productCategoryRepository.SaveChanges();
             return operation.Succeeded();
+
         }
 
 
@@ -53,7 +49,7 @@ namespace ShopManagement.Application
                 command.PictureTitle, command.Keywords,
                 command.MetaDescription,slug);
 
-            _productCategoryRepository.SaveChaneges();
+            _productCategoryRepository.SaveChanges();
             return operation.Succeeded();
 
 

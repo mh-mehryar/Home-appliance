@@ -1,4 +1,5 @@
-﻿using ShopManagement.Application.Contracts.ProductCategory;
+﻿using _0_Framework.Domain;
+using ShopManagement.Application.Contracts.ProductCategory;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,17 +9,15 @@ using System.Threading.Tasks;
 
 namespace ShopManagement.Domain.ProductCategoryAgg
 {
-    public interface IProductCategoryRepository
+    public interface IProductCategoryRepository : IRepository<long,ProductCategory>
     {
-        void Create(ProductCategory entity);
-        
+        //void Create(ProductCategory entity);       
         //void Edit(ProductCategory entity);
-        ProductCategory Get(long id);
-        List<ProductCategory> GetAll();
-
+        //ProductCategory Get(long id);
+        //List<ProductCategory> GetAll();
         //bool Exists(string name);
-        bool Exists(Expression<Func<ProductCategory, bool>> expression);
-        void SaveChaneges();
+        //bool Exists(Expression<Func<ProductCategory, bool>> expression);
+        //void SaveChaneges();
         EditProductCategory GetDetails(long id);
         List<ProductCategoryViewModel> Search(ProductCategorySearchModel searchModel);
     }

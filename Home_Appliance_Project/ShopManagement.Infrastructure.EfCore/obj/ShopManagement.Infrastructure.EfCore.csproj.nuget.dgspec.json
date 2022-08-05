@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "D:\\.NET Projects\\Home_Appliance\\Code\\Home_Appliance_Project\\ShopManagement.Infrastructure.EfCore\\ShopManagement.Infrastructure.EfCore.csproj": {}
+    "D:\\.NET Projects\\Home_Appliance\\Code\\Home_Appliance_Project\\ShopManagement.Infrastructure.EFCore\\ShopManagement.Infrastructure.EFCore.csproj": {}
   },
   "projects": {
     "D:\\.NET Projects\\Home_Appliance\\Code\\Home_Appliance_Project\\0_Framework\\0_Framework.csproj": {
@@ -39,6 +39,12 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -177,14 +183,14 @@
         }
       }
     },
-    "D:\\.NET Projects\\Home_Appliance\\Code\\Home_Appliance_Project\\ShopManagement.Infrastructure.EfCore\\ShopManagement.Infrastructure.EfCore.csproj": {
+    "D:\\.NET Projects\\Home_Appliance\\Code\\Home_Appliance_Project\\ShopManagement.Infrastructure.EFCore\\ShopManagement.Infrastructure.EFCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\.NET Projects\\Home_Appliance\\Code\\Home_Appliance_Project\\ShopManagement.Infrastructure.EfCore\\ShopManagement.Infrastructure.EfCore.csproj",
-        "projectName": "ShopManagement.Infrastructure.EfCore",
-        "projectPath": "D:\\.NET Projects\\Home_Appliance\\Code\\Home_Appliance_Project\\ShopManagement.Infrastructure.EfCore\\ShopManagement.Infrastructure.EfCore.csproj",
+        "projectUniqueName": "D:\\.NET Projects\\Home_Appliance\\Code\\Home_Appliance_Project\\ShopManagement.Infrastructure.EFCore\\ShopManagement.Infrastructure.EFCore.csproj",
+        "projectName": "ShopManagement.Infrastructure.EFCore",
+        "projectPath": "D:\\.NET Projects\\Home_Appliance\\Code\\Home_Appliance_Project\\ShopManagement.Infrastructure.EFCore\\ShopManagement.Infrastructure.EFCore.csproj",
         "packagesPath": "C:\\Users\\MH\\.nuget\\packages\\",
-        "outputPath": "D:\\.NET Projects\\Home_Appliance\\Code\\Home_Appliance_Project\\ShopManagement.Infrastructure.EfCore\\obj\\",
+        "outputPath": "D:\\.NET Projects\\Home_Appliance\\Code\\Home_Appliance_Project\\ShopManagement.Infrastructure.EFCore\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\MH\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -218,6 +224,10 @@
           "targetAlias": "net5.0",
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[5.0.17, )"
             },
