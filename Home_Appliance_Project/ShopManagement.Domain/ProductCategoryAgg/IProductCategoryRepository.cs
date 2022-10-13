@@ -20,6 +20,7 @@ namespace ShopManagement.Domain.ProductCategoryAgg
         //void SaveChaneges();
         EditProductCategory GetDetails(long id);
         List<ProductCategoryViewModel> Search(ProductCategorySearchModel searchModel);
+        List<ProductCategoryViewModel> GetProductCategories();
     }
     
 }

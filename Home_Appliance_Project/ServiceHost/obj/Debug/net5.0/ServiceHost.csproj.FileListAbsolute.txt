@@ -163,3 +163,6 @@ D:\.NET Projects\Home_Appliance\Code\Home_Appliance_Project\ServiceHost\obj\Debu
 D:\.NET Projects\Home_Appliance\Code\Home_Appliance_Project\ServiceHost\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
 D:\.NET Projects\Home_Appliance\Code\Home_Appliance_Project\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Shop\ProductCategories\Create.cshtml.g.cs
 D:\.NET Projects\Home_Appliance\Code\Home_Appliance_Project\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Shop\ProductCategories\Edit.cshtml.g.cs
+D:\.NET Projects\Home_Appliance\Code\Home_Appliance_Project\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Shop\Products\Create.cshtml.g.cs
+D:\.NET Projects\Home_Appliance\Code\Home_Appliance_Project\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Shop\Products\Edit.cshtml.g.cs
+D:\.NET Projects\Home_Appliance\Code\Home_Appliance_Project\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Shop\Products\Index.cshtml.g.cs

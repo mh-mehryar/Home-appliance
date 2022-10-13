@@ -1,12 +1,9 @@
 ﻿using _0_Framework.Infrastructure;
 using ShopManagement.Application.Contracts.ProductCategory;
 using ShopManagement.Domain.ProductCategoryAgg;
-using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Linq.Expressions;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace ShopManagement.Infrastructure.EFCore.Repository
 {
@@ -55,6 +52,16 @@ namespace ShopManagement.Infrastructure.EFCore.Repository
        
         }
 
+        public List<ProductCategoryViewModel> GetProductCategories()
+        {
+            return _context.ProductCategories.Select(x=>new ProductCategoryViewModel()
+            {
+                Id = x.Id,
+                Name = x.Name
+
+            }).ToList();
+        }
+
         //public void SaveChaneges()
         //{
         //    _context.SaveChanges();
@@ -86,5 +93,6 @@ namespace ShopManagement.Infrastructure.EFCore.Repository
 
             return query.OrderByDescending(x => x.Id).ToList();
         }
+
     }
 }
