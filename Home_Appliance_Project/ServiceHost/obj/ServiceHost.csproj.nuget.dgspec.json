@@ -4,6 +4,65 @@
     "D:\\.NET Projects\\Home_Appliance\\Code\\Home_Appliance_Project\\ServiceHost\\ServiceHost.csproj": {}
   },
   "projects": {
+    "D:\\.NET Projects\\Home_Appliance\\Code\\Home_Appliance_Project\\01-LampshadeQuery\\01-LampshadeQuery.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\.NET Projects\\Home_Appliance\\Code\\Home_Appliance_Project\\01-LampshadeQuery\\01-LampshadeQuery.csproj",
+        "projectName": "01-LampshadeQuery",
+        "projectPath": "D:\\.NET Projects\\Home_Appliance\\Code\\Home_Appliance_Project\\01-LampshadeQuery\\01-LampshadeQuery.csproj",
+        "packagesPath": "C:\\Users\\MH\\.nuget\\packages\\",
+        "outputPath": "D:\\.NET Projects\\Home_Appliance\\Code\\Home_Appliance_Project\\01-LampshadeQuery\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\MH\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\.NET Projects\\Home_Appliance\\Code\\Home_Appliance_Project\\ShopManagement.Infrastructure.EFCore\\ShopManagement.Infrastructure.EFCore.csproj": {
+                "projectPath": "D:\\.NET Projects\\Home_Appliance\\Code\\Home_Appliance_Project\\ShopManagement.Infrastructure.EFCore\\ShopManagement.Infrastructure.EFCore.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "D:\\.NET Projects\\Home_Appliance\\Code\\Home_Appliance_Project\\0_Framework\\0_Framework.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -284,6 +343,9 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
+              "D:\\.NET Projects\\Home_Appliance\\Code\\Home_Appliance_Project\\01-LampshadeQuery\\01-LampshadeQuery.csproj": {
+                "projectPath": "D:\\.NET Projects\\Home_Appliance\\Code\\Home_Appliance_Project\\01-LampshadeQuery\\01-LampshadeQuery.csproj"
+              },
               "D:\\.NET Projects\\Home_Appliance\\Code\\Home_Appliance_Project\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj": {
                 "projectPath": "D:\\.NET Projects\\Home_Appliance\\Code\\Home_Appliance_Project\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj"
               },

@@ -173,3 +173,6 @@ D:\.NET Projects\Home_Appliance\Code\Home_Appliance_Project\ServiceHost\obj\Debu
 D:\.NET Projects\Home_Appliance\Code\Home_Appliance_Project\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Shop\Slides\Create.cshtml.g.cs
 D:\.NET Projects\Home_Appliance\Code\Home_Appliance_Project\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Shop\Slides\Edit.cshtml.g.cs
 D:\.NET Projects\Home_Appliance\Code\Home_Appliance_Project\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Shop\Slides\Index.cshtml.g.cs
+D:\.NET Projects\Home_Appliance\Code\Home_Appliance_Project\ServiceHost\bin\Debug\net5.0\01-LampshadeQuery.dll
+D:\.NET Projects\Home_Appliance\Code\Home_Appliance_Project\ServiceHost\bin\Debug\net5.0\01-LampshadeQuery.pdb
+D:\.NET Projects\Home_Appliance\Code\Home_Appliance_Project\ServiceHost\obj\Debug\net5.0\Razor\Pages\Shared\Components\Slide\Default.cshtml.g.cs
